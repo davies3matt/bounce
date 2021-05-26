@@ -1,7 +1,7 @@
-import bounceLogo from '../assets/icons/logo.png';
+import bounceLogo from "../assets/icons/logo.png";
 
 const Images = {
-    bounceLogo
-}
+  bounceLogo,
+};
 
 export default Images;
