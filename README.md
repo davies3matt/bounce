@@ -1,14 +1,17 @@
 # bounce
+
 not sure yet
 
 ## 1 Environment Setup
 
-### Enter Project Directory 
+### Enter Project Directory
+
 `cd bounce`
 
-### Run Package Manager 
+### Run Package Manager
+
 `yarn`
 
 ### Start bounce
-`yarn start`
 
+`yarn start`
