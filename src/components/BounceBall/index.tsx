@@ -1,10 +1,7 @@
 import React from "react";
 import "./styles.css";
-import Images from "../../themes/images";
 
-const { bounceLogo } = Images;
-
-const BounceLogo = () => {
+const BounceLogo: React.FC = () => {
   return (
     <div
       id="animated-example"
