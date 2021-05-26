@@ -2,16 +2,20 @@
 
 not sure yet
 
-## 1 Environment Setup
+## 1. Environment Setup
+
+### Clone Repo
+
+`$ git clone https://github.com/davies3matt/bounce.git`
 
 ### Enter Project Directory
 
-`cd bounce`
+`$ cd bounce`
 
 ### Run Package Manager
 
-`yarn`
+`$ yarn`
 
 ### Start bounce
 
-`yarn start`
+`$ yarn start`
