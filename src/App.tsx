@@ -1,30 +1,11 @@
 import React from "react";
-//Component Imports */
-import BounceBall from "./components/BounceBall";
-import Header from "./components/Header";
+// import Home from './containers/Home';
+// /**Component Imports */
+// import Header from './components/Header';
+import Navigation from './navigation';
 
-const App = () => {
-  return (
-    <div
-      style={{
-        backgroundColor: "antiquewhite",
-        height: "100vh",
-        width: "100%",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Header />
-      <div>
-        <BounceBall />
-        <BounceBall />
-        <BounceBall />
-        <BounceBall />
-        <BounceBall />
-      </div>
-    </div>
-  );
+const App: React.FC = () => {
+  return <Navigation/>;
 };
 
 export default App;
