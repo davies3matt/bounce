@@ -17,6 +17,11 @@ const AsyncContact = Loadable({
     loading: Loading,
 })
 
+const AsyncLogin = Loadable({
+    loader: () => import('../containers/Auth/Login'),
+    loading: Loading
+})
+
 const PublicRoutes = [
     {
         title: 'Home',
@@ -34,6 +39,12 @@ const PublicRoutes = [
         title: 'Contact',
         path: '/contact',
         component: AsyncContact,
+        exact: true
+    },
+    {
+        title: 'Login',
+        path: '/login',
+        component: AsyncLogin,
         exact: true
     }
 ];
