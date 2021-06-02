@@ -22,10 +22,13 @@ const Header: React.FC = () => {
                 Home
               </Link>
               <Link href="/about" color="inherit" style={{fontSize: '28px'}}>
-                Stuff
+                About
               </Link>
               <Link href="/contact" color="inherit" style={{fontSize: '28px'}}>
-                Things
+                Contact
+              </Link>
+              <Link href="/profile" color="inherit" style={{fontSize: '28px'}}>
+                Profile
               </Link>
            </Breadcrumbs>
          </Box>
