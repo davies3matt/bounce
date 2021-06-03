@@ -1,0 +1,39 @@
+.animated {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: translateX(100px);
+  }
+  50% {
+    -webkit-transform: translateX(-100px);
+  }
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+#animated-example {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(30, 214, 159);
+  position: relative;
+  border-radius: 50%;
+}

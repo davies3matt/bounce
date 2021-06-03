@@ -1,8 +1,13 @@
 import React from 'react';
+import './styles.css'
+import SwingBall from '../../components/SwingBall';
 
 const About: React.FC = () => {
     return(
-        <h1>About Page</h1>
+        <div className="my-staail">
+          <h1>About</h1>
+          <SwingBall/>
+        </div>
     );
 }
 
