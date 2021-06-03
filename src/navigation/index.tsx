@@ -4,6 +4,7 @@ import PublicRoutes from './PublicRoutes';
 import Header from '../components/Header';
 
 const AppNavigation: React.FC = () => {
+    
     return(
         <Fragment>
         <Header/>
