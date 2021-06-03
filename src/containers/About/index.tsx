@@ -1,8 +1,20 @@
 import React from 'react';
+import WaveyText from '../../components/WaveyText';
 
 const About: React.FC = () => {
     return(
-        <h1>About Page</h1>
+        <div
+      style={{
+        backgroundColor: "antiquewhite",
+        height: "100vh",
+        width: "100%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+       >
+           <WaveyText/>
+       </div>
     );
 }
 
