@@ -1,9 +1,8 @@
-import React from 'react';
 
 type Props = {
   error: boolean;
 };
-const Loading:any = ({ error = false }: Props) => {
+const Loading: any = ({ error = false }: Props) => {
   if (error) {
     console.error(error);
     // When the loader has errored

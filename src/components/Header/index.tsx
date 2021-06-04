@@ -27,6 +27,9 @@ const Header: React.FC = () => {
               <Link href="/contact" color="inherit" style={{fontSize: '28px'}}>
                 Contact
               </Link>
+              <Link href="/profile" color="inherit" style={{fontSize: '28px'}}>
+                Profile
+              </Link>
            </Breadcrumbs>
          </Box>
          );
