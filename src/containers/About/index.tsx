@@ -1,4 +1,6 @@
 import React from 'react';
+import './styles.css'
+import SwingBall from '../../components/SwingBall';
 import WaveyText from '../../components/WaveyText';
 
 const About: React.FC = () => {
@@ -14,7 +16,9 @@ const About: React.FC = () => {
       }}
        >
            <WaveyText/>
+           <SwingBall/>
        </div>
+
     );
 }
 

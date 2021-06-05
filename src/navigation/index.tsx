@@ -31,6 +31,7 @@ const PrivateRoute = ({
     )
 
 const AppNavigation: React.FC = () => {
+    
     return(
         <Fragment>
         <Header/>

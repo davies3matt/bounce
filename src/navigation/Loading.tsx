@@ -8,7 +8,7 @@ const Loading: any = ({ error = false }: Props) => {
     // When the loader has errored
     return <div>Sorry, there was a problem loading the page.</div>;
   }
-  return null;
+  else return null;
 };
 
 export default Loading;
