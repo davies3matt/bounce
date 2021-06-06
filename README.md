@@ -16,6 +16,18 @@ not sure yet
 
 `$ yarn`
 
+### Enter Backend Directory 
+
+`$ cd backend`
+
+### Run Package Manager & Build Strapi UI
+
+`$ yarn && strapi build`
+
+### Start Strapi
+
+`$ strapi start`
+
 ### Start bounce
 
 `$ yarn start`
