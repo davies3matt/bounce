@@ -28,6 +28,7 @@ not sure yet
 
 `$ strapi start`
 
-### Start bounce
+### Enter Project Direcottry & Start bounce
 
+`$ cd ..`
 `$ yarn start`
